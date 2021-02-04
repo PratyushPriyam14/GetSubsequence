@@ -17,8 +17,8 @@ public class GetSubsequence
             bres.add(" ");
             return bres;
         }
-        char ch = str.charAt(0); //this line means abc ka a alag hogya hai
-        String ros = str.substring(1); //here ros means rest of String (abc ka  a alag hogya or bc alag)
+        char ch = str.charAt(0); //abc->a
+        String ros = str.substring(1); //abc->bc
         ArrayList<String> rresult = gss(ros);// result for this line will be [--,-c,b-,bc]
 
         ArrayList<String> myreslut = new ArrayList<>();
